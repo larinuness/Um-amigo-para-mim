@@ -1,5 +1,5 @@
-#aboutpage h1 {
-    font-family: Amatic SC, sans-serif;
+#contactpage h1 {
+     font-family: Amatic SC, sans-serif;
     color: #18948e;
     text-align: center;
     margin-top: 20px;
@@ -7,7 +7,7 @@
 
 }
 
-#aboutpage .content-box{
+#contactpage .content-box{
  
     display: flex;
     justify-content: center;
@@ -16,39 +16,52 @@
     
 }
 
+#contactpage .content-box .informations h3 {
+    color: #18948e;
 
+}
 
-#aboutpage .content-box .informations p {
+#contactpage .content-box .informations h4 {
+    color: #f84343;
+    padding-top: 30px;
+}
+
+#contactpage .content-box .informations p {
     color: rgb(153, 153, 153);
-    padding-top: 60px;
     
     
 }
 
-#aboutpage .content-box .informations {
+#contactpage .content-box .informations {
   
     padding-left: 15px; 
     
 }
 
-#aboutpage .content-box .pic {
+#contactpage .content-box .informations a {
+    color: rgb(153, 153, 153)
+}
+
+#contactpage .content-box .informations a:hover {
+    color: rgb(100, 100, 100)
+}
+
+#contactpage .content-box .pic {
     background:white;
     display: flex;
     box-shadow: 10px 10px 10px rgb(214, 214, 214);
     border-radius: 30px;
     padding: 15px;
-    width: 50%;
-    margin: auto;
 }
 
-#aboutpage .content-box .pic img {
+#contactpage .content-box .pic img {
     border-radius: 50%;
     
     
 }
 
 @media all and (max-width: 768px) { 
-    #aboutpage .content-box{
+    #contactpage .content-box{
  
         display: block;
         justify-content: center;
@@ -57,7 +70,7 @@
         
     }
 
-    #aboutpage .content-box .pic {
+    #contactpage .content-box .pic {
         background:white;
         display: block;
         box-shadow: 10px 10px 10px rgb(214, 214, 214);
@@ -69,17 +82,18 @@
         
     }
 
-    #aboutpage .content-box .informations p {
+    #contactpage .content-box .informations p {
         color: rgb(153, 153, 153);
         padding-top: 10px;
         
         
     }
 
-    #aboutpage .content-box .pic img {
+    #contactpage .content-box .pic img {
         max-width:100%;
         height:auto;
         
     }
+
     
 }
