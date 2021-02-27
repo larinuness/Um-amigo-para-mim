@@ -7,23 +7,54 @@
     font-family: Amatic SC, sans-serif;
     color: #18948e;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-#homepage main {
-    align-items: center;
+
+#homepage .container {
+
+    /* Deixar em colunas alinhadas */
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+   
+    
+}
+#homepage .box-model {
+    
+    padding: 30px;
+    margin: 20px;  
+    background-color:white;
+    width: 22%;   
+    box-shadow: 10px 10px 10px rgb(214, 214, 214);
+    border-radius: 30px;
+    color: rgb(153, 153, 153);
+    font-size: 20px;   
+    
 }
 
-#homepage main .box-model {
-    justify-content: space-around;
+
+#homepage .box-model img {
+   border-radius: 50%;
+   text-align: center;
+   max-width:100%;
+   height:auto;
+
+}
+#homepage .box-model h3 {
+    font-family: Raleway;
+    color: #18948e;
+    text-align: center;
+    margin-top: 5px;
 }
 
+#homepage .box-model .content-box p{
+  font-size: 18px;
+}
 
 #homepage .enter-app {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 3rem;
     width: 80px;
@@ -42,14 +73,11 @@
 }
 
 
-
-
-
 @media all and (max-width: 768px) { 
     #homepage .enter-app {
-        position: absolute;
+        position: fixed;
         right: 0;
-        bottom: 4rem;
+        bottom: 6rem;
         width: 50px;
         height: 50px;
         background: #fc6464;
@@ -59,9 +87,48 @@
         align-items: center;
         justify-content: center;
         transition: background-color 0.4s;
+
     }
 
     #homepage .enter-app:hover {
         background: #f84343;
     }
+
+    #homepage .container {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        
+        
+        
+        
+    }
+
+    #homepage .box-model {
+        
+        
+        padding: 30px;
+        margin: auto; 
+        background-color:white;
+        width: 75%;   
+        box-shadow: 10px 10px 10px rgb(214, 214, 214);
+        border-radius: 30px;
+        color: rgb(153, 153, 153);
+        font-size: 20px;
+        margin-bottom: 30px;    
+             
+        
+    }
+
+    #homepage .box-model img {
+        max-width:100%;
+        height:auto;
+    }
+
+    #homepage .box-model .content-box p{
+        font-size: 20px;
+      }
 }
+
+
+
