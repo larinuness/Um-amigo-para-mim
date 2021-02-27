@@ -1,134 +1,74 @@
-#homepage {
-    align-items: center;
-    justify-content: center;
-}
-
 #homepage h1 {
-    font-family: Amatic SC, sans-serif;
-    color: #18948e;
-    text-align: center;
-    margin-top: 20px;
-}
+   font-family: Amatic SC, sans-serif;
+   color: #18948e;
+   text-align: center;
+   margin-top: 20px;
 
+}
 
 #homepage .container {
-
-    /* Deixar em colunas alinhadas */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
    
     
 }
-#homepage .box-model {
-    
-    padding: 30px;
-    margin: 20px;  
-    background-color:white;
-    width: 22%;   
+
+#homepage .container .content-box{
+    background-color: white;
     box-shadow: 10px 10px 10px rgb(214, 214, 214);
+    width: 20%;
     border-radius: 30px;
-    color: rgb(153, 153, 153);
-    font-size: 20px;   
+    margin: auto;
+    
     
 }
 
-
-#homepage .box-model img {
-   border-radius: 50%;
-   text-align: center;
-   max-width:100%;
-   height:auto;
-
+#homepage .container .content-box .pic img {
+    border-radius: 50%;
+    max-width:100%;
+    height:auto;
+    
+    
 }
-#homepage .box-model h3 {
-    font-family: Raleway;
+
+#homepage .container .content-box .pic {
+   padding: 30px;
+}
+
+#homepage .container .content-box .pic .informations h1 {
+    font-family: Amatic SC, sans-serif;
     color: #18948e;
     text-align: center;
-    margin-top: 5px;
+
 }
 
-#homepage .box-model .content-box p{
-  font-size: 18px;
-}
+#homepage .container .content-box .pic .informations p {
+    color: rgb(153, 153, 153);
 
-#homepage .enter-app {
-    position: fixed;
-    right: 0;
-    bottom: 3rem;
-    width: 80px;
-    height: 80px;
-    background: #fc6464;
-    border-radius: 30px;
-    display: flex;
-    margin-right: 10px;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.4s;
 }
-
-#homepage .enter-app:hover {
-    background: #f84343;
-}
-
 
 @media all and (max-width: 768px) { 
-    #homepage .enter-app {
-        position: fixed;
-        right: 0;
-        bottom: 6rem;
-        width: 50px;
-        height: 50px;
-        background: #fc6464;
-        border-radius: 18px;
-        display: flex;
-        margin-right: 10px;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 0.4s;
-
-    }
-
-    #homepage .enter-app:hover {
-        background: #f84343;
-    }
-
     #homepage .container {
-        display: block;
-        margin-top: 20px;
-        margin-bottom: 100px;
+        display: flex;    
+        justify-content: center;
+        margin-bottom: 20px;
         
-        
-        
-        
+          
     }
-
-    #homepage .box-model {
-        
-        
-        padding: 30px;
-        margin: auto; 
-        background-color:white;
-        width: 75%;   
+    #homepage .container .content-box{
+        background-color: white;
         box-shadow: 10px 10px 10px rgb(214, 214, 214);
+        width: 70%;
         border-radius: 30px;
-        color: rgb(153, 153, 153);
-        font-size: 20px;
-        margin-bottom: 30px;    
-             
+        margin: 20px;
+        
+        
         
     }
 
-    #homepage .box-model img {
-        max-width:100%;
-        height:auto;
-    }
-
-    #homepage .box-model .content-box p{
-        font-size: 20px;
-      }
+    
+        
 }
-
-
-

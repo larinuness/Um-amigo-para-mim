@@ -23,7 +23,7 @@ export default function About() {
                         não tem nenhuma funcionalidade inovadora, foi feito apenas para praticar.</p>
                         </div> 
                         </div>                                              
-                    </div>
+            </div>
 
             
 

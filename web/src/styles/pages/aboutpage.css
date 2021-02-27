@@ -9,7 +9,7 @@
 
 #aboutpage .content-box{
  
-    display: flex;
+    display: block;
     justify-content: center;
     padding-top: 30px;
     
@@ -20,7 +20,7 @@
 
 #aboutpage .content-box .informations p {
     color: rgb(153, 153, 153);
-    padding-top: 60px;
+    padding-top: 20px;
     
     
 }
@@ -33,16 +33,18 @@
 
 #aboutpage .content-box .pic {
     background:white;
-    display: flex;
+    
     box-shadow: 10px 10px 10px rgb(214, 214, 214);
     border-radius: 30px;
     padding: 15px;
-    width: 50%;
+    width: 20%;
     margin: auto;
 }
 
 #aboutpage .content-box .pic img {
     border-radius: 50%;
+    max-width:100%;
+    height:auto;
     
     
 }
@@ -52,6 +54,7 @@
  
         display: block;
         justify-content: center;
+        margin-bottom: 100px;
         
         
         
@@ -59,13 +62,14 @@
 
     #aboutpage .content-box .pic {
         background:white;
-        display: block;
         box-shadow: 10px 10px 10px rgb(214, 214, 214);
         border-radius: 30px;
         padding: 15px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 90px;
+        width: 65%;
+        margin: auto;
+      
+   
+    
         
     }
 
@@ -76,10 +80,5 @@
         
     }
 
-    #aboutpage .content-box .pic img {
-        max-width:100%;
-        height:auto;
-        
-    }
     
 }
