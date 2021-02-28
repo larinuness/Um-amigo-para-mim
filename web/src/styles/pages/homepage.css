@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 25px;
+    
    
     
 }
@@ -22,6 +23,7 @@
     width: 20%;
     border-radius: 30px;
     margin: auto;
+    padding: 0px 30px;
     
     
 }
@@ -30,13 +32,12 @@
     border-radius: 50%;
     max-width:100%;
     height:auto;
+    margin: auto;
+    padding-top: 10px;
     
     
 }
 
-#homepage .container .content-box .pic {
-   padding: 30px;
-}
 
 #homepage .container .content-box .pic .informations h1 {
     font-family: Amatic SC, sans-serif;
@@ -50,7 +51,46 @@
 
 }
 
-@media all and (max-width: 768px) { 
+#homepage .enter-app {
+    position: fixed;
+    right: 0;
+    bottom: 3rem;
+    width: 80px;
+    height: 80px;
+    background: #fc6464;
+    border-radius: 30px;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.4s;
+}
+
+#homepage .enter-app:hover {
+    background: #f84343;
+}
+
+@media all and (max-width: 768px) {
+    
+    #homepage .enter-app {
+        position: fixed;
+        right: 0;
+        bottom: 6rem;
+        width: 50px;
+        height: 50px;
+        background: #fc6464;
+        border-radius: 18px;
+        display: flex;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.4s;
+
+    }
+
+    #homepage .enter-app:hover {
+        background: #f84343;
+    }
     #homepage .container {
         display: flex;    
         justify-content: center;

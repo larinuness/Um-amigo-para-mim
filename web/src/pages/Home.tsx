@@ -39,7 +39,7 @@ export default function Home() {
                  <div className="content-box">
                      
                      <div className="pic">
-                     <img src={Jade} alt="Foto contato" />
+                     <img src={Josh} alt="Foto contato" />
                      <div className="informations">
                      <h1>Jade</h1>    
                      <p>Meu nome é Jade e sou demais de linda.
@@ -56,7 +56,7 @@ export default function Home() {
                  <div className="content-box">
                      
                      <div className="pic">
-                     <img src={Jade} alt="Foto contato" />
+                     <img src={Leo} alt="Foto contato" />
                      <div className="informations">
                      <h1>Jade</h1>    
                      <p>Meu nome é Jade e sou demais de linda.
@@ -73,7 +73,7 @@ export default function Home() {
                  <div className="content-box">
                      
                      <div className="pic">
-                     <img src={Jade} alt="Foto contato" />
+                     <img src={Maia} alt="Foto contato" />
                      <div className="informations">
                      <h1>Jade</h1>    
                      <p>Meu nome é Jade e sou demais de linda.
@@ -89,7 +89,7 @@ export default function Home() {
 
             </div>
 
-            <Link to="/app" className="enter-app">
+            <Link to="/Add-animal" className="enter-app">
                 <FiPlus size={25} color="white" />
 
             </Link>
