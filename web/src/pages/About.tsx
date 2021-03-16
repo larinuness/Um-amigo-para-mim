@@ -22,12 +22,9 @@ export default function About() {
                         e para deixar mais divertido resolvi desenvolver com o tema que eu amo muito, os animais. O projeto
                         não tem nenhuma funcionalidade inovadora, foi feito apenas para praticar.</p>
                         </div> 
-                        </div>                                              
-<<<<<<< HEAD
+                        </div>       
+                                                               
                     </div>
-=======
-            </div>
->>>>>>> a6d13096a543431c85559c86fe2c516df6537429
 
             
 
