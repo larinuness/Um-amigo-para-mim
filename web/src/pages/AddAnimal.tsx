@@ -2,6 +2,7 @@ import react from 'react'
 import NavBar from '../components/Navbar'
 import {FiPlus} from 'react-icons/fi'
 import '../styles/pages/addanimalpage.css'
+import Footer from '../components/Footer'
 
 export default function AddAnimal() {
     return(
@@ -47,6 +48,7 @@ export default function AddAnimal() {
           <button type="submit">Confirmar</button>
         </form>
       </main>
+      <Footer/>
         </div>
     )
 }
