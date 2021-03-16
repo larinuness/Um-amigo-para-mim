@@ -28,6 +28,7 @@ export default function Home() {
                         Já sou adulta, mas não vá ainda, me ouça, prometo contigo formar uma família.Fui encontrada bem magra,
                         muito desidratada, caía e me levantava. Mas com ajuda de humanos maravilhosos consegui me recuperar, sou muito
                         carinhosa e dócil, adoro crianças.</p>
+                        <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
 
@@ -39,6 +40,7 @@ export default function Home() {
                         <p>Você sabia que eu e meus irmãos nascemos nas ruas de São Paulo? Foi muito difícil para nós.
                         Qualquer brincadeira me interessa. E curto muito um carinho também. Mas o que eu mais quero é uma casa para chamar de minha, sabe?
                         Você topa me levar para a sua casa e sermos felizes para sempre?.</p>
+                        <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
 
@@ -50,6 +52,7 @@ export default function Home() {
                         <p>Você sabia que eu e meus irmãos nascemos nas ruas de São Paulo? Foi muito difícil para nós.
                         Qualquer brincadeira me interessa. E curto muito um carinho também. Mas o que eu mais quero é uma casa para chamar de minha, sabe?
                         Você topa me levar para a sua casa e sermos felizes para sempre?.</p>
+                        <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
 
@@ -61,6 +64,7 @@ export default function Home() {
                         <p>Esse gatão amarelo da foto não te lembra um famoso gato amarelo da televisão?
                         Pois sou eu mesmo, o Garfield! Sim, sou muito parecido com ele, tenho a mesma exuberância felina,
                             mas troco a lasanha por um bom sachê de qualquer sabor. Me dá essa chance de ser feliz em um lar só meu?</p>
+                            <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
                 <div className="box-model">
@@ -72,6 +76,7 @@ export default function Home() {
                         Já sou adulta, mas não vá ainda, me ouça, prometo contigo formar uma família.Fui encontrada bem magra,
                         muito desidratada, caía e me levantava. Mas com ajuda de humanos maravilhosos consegui me recuperar, sou muito
                         carinhosa e dócil, adoro crianças.</p>
+                        <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
 
@@ -83,6 +88,7 @@ export default function Home() {
                         <p>Você sabia que eu e meus irmãos nascemos nas ruas de São Paulo? Foi muito difícil para nós.
                         Qualquer brincadeira me interessa. E curto muito um carinho também. Mas o que eu mais quero é uma casa para chamar de minha, sabe?
                         Você topa me levar para a sua casa e sermos felizes para sempre?.</p>
+                        <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
 
@@ -94,6 +100,7 @@ export default function Home() {
                         <p>Você sabia que eu e meus irmãos nascemos nas ruas de São Paulo? Foi muito difícil para nós.
                         Qualquer brincadeira me interessa. E curto muito um carinho também. Mas o que eu mais quero é uma casa para chamar de minha, sabe?
                         Você topa me levar para a sua casa e sermos felizes para sempre?.</p>
+                        <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
 
@@ -105,6 +112,7 @@ export default function Home() {
                         <p>Esse gatão amarelo da foto não te lembra um famoso gato amarelo da televisão?
                         Pois sou eu mesmo, o Garfield! Sim, sou muito parecido com ele, tenho a mesma exuberância felina,
                         mas troco a lasanha por um bom sachê de qualquer sabor. Me dá essa chance de ser feliz em um lar só meu?</p>
+                        <h5>Contato:</h5><span>lalanunnes@gmail.com</span>
                     </div>
                 </div>
 
@@ -112,7 +120,7 @@ export default function Home() {
 
             </div>
 
-            <Link to="/app" className="enter-app">
+            <Link to="/AddAnimal" className="enter-app">
                 <FiPlus size={25} color="white" />
 
             </Link>
