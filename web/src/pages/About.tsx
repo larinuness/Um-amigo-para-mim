@@ -23,7 +23,11 @@ export default function About() {
                         não tem nenhuma funcionalidade inovadora, foi feito apenas para praticar.</p>
                         </div> 
                         </div>                                              
+<<<<<<< HEAD
                     </div>
+=======
+            </div>
+>>>>>>> a6d13096a543431c85559c86fe2c516df6537429
 
             
 

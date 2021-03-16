@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import react from 'react'
 import NavBar from '../components/Navbar'
 import {FiPlus} from 'react-icons/fi'
@@ -50,3 +51,17 @@ export default function AddAnimal() {
         </div>
     )
 }
+=======
+import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
+export default function AddAnimal(){
+    return(
+        <div id="addpage">
+        <Navbar />
+        <Footer />
+        </div>
+    )
+}
+>>>>>>> a6d13096a543431c85559c86fe2c516df6537429
